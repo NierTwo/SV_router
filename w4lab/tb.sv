@@ -20,7 +20,6 @@ interface router_gnrt_intf;
 endinterface
 
 
-
 //send stimulation
 module router_stml(router_intf router_intf, router_gnrt_intf router_gnrt_intf); 
     initial begin : drive_begin
